@@ -34,7 +34,7 @@ export default function Showcase() {
         <SectionHeading
           id="showcase-title"
           title="仕組み"
-          subtitle="SYLVANの動きは、検出から判断までを一つの流れとしてつなぎます。"
+          subtitle="SYLVAの動きは、検出から判断までを一つの流れとしてつなぎます。"
           label="プロセス / Process"
         />
         <div className="mt-12 grid gap-6 md:grid-cols-2">
@@ -69,3 +69,4 @@ export default function Showcase() {
     </RevealSection>
   );
 }
+
