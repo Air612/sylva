@@ -7,7 +7,7 @@
             SYLVAN
           </p>
           <p className="text-xs text-white/40">
-            © 2026 SYLVAN. 無断転載を禁じます。
+            © 2026 SYLVA. 無断転載を禁じます。
           </p>
         </div>
         <div className="flex items-center gap-4">
@@ -30,3 +30,4 @@
     </footer>
   );
 }
+
