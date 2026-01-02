@@ -37,7 +37,7 @@ export default function Hero() {
           className="flex flex-col gap-8"
         >
           <motion.div variants={heroItem}>
-            <p className="section-label">SYLVAN / 公式</p>
+            <p className="section-label">SYLVA / 公式</p>
           </motion.div>
           <motion.h1
             id="hero-title"
@@ -92,3 +92,4 @@ export default function Hero() {
     </section>
   );
 }
+
