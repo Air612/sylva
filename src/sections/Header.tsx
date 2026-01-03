@@ -1,13 +1,26 @@
 ﻿import { motion, useReducedMotion } from "framer-motion";
 
-const navItems = [
+type NavItem = {
+  label: string;
+  href: string;
+};
+
+const defaultNavItems: NavItem[] = [
   { label: "製品", href: "#products" },
   { label: "思想", href: "#philosophy" },
   { label: "仕組み", href: "#showcase" },
   { label: "相談", href: "#cta" },
 ];
 
-export default function Header() {
+type HeaderProps = {
+  homeHref?: string;
+  navItems?: NavItem[];
+};
+
+export default function Header({
+  homeHref = "#top",
+  navItems = defaultNavItems,
+}: HeaderProps) {
   const prefersReducedMotion = useReducedMotion();
   const logoSrc = `${import.meta.env.BASE_URL}sylva_symbol_black.png`;
 
@@ -20,7 +33,7 @@ export default function Header() {
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a
-          href="#top"
+          href={homeHref}
           className="flex items-center gap-3 text-sm uppercase tracking-[0.4em] text-white focus-ring"
           aria-label="SYLVA ホームへ"
         >

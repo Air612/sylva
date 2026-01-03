@@ -1,4 +1,6 @@
 ﻿export default function Footer() {
+  const baseUrl = import.meta.env.BASE_URL;
+
   return (
     <footer className="border-t border-white/10 px-6 py-10">
       <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-6 md:flex-row md:items-center">
@@ -9,6 +11,12 @@
           <p className="text-xs text-white/40">
             © 2026 SYLVA. 無断転載を禁じます。
           </p>
+          <a
+            href={`${baseUrl}tokushoho/`}
+            className="text-xs text-white/60 transition-colors duration-300 hover:text-white focus-ring"
+          >
+            特定商取引法に基づく表記
+          </a>
         </div>
         <div className="flex items-center gap-4">
           {[
@@ -30,4 +38,6 @@
     </footer>
   );
 }
+
+
 
