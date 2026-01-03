@@ -52,11 +52,11 @@ export default function TokushohoPage() {
           <section className="glass-panel rounded-3xl p-6 md:p-10">
             <div className="space-y-6 text-sm text-white/80 md:text-base">
               <div className="space-y-1">
-                <p>販売事業者名：&lt;YOUR_BUSINESS_NAME&gt;</p>
-                <p>運営責任者：&lt;YOUR_RESPONSIBLE_PERSON&gt;</p>
+                <p>販売事業者名：SYLVA</p>
+                <p>運営責任者：堀江 祝光</p>
                 <p>所在地：請求があった場合に遅滞なく開示します</p>
                 <p>電話番号：請求があった場合に遅滞なく開示します</p>
-                <p>メールアドレス：&lt;YOUR_CONTACT_EMAIL&gt;</p>
+                <p>メールアドレス：air0916.jp@gmail.com</p>
               </div>
               <div className="space-y-1">
                 <p>販売価格：各サービスページに記載</p>
